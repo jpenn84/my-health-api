@@ -1,7 +1,7 @@
 package com.joshualeepenn.myhealth.repository;
 
 import com.joshualeepenn.myhealth.model.User;
-import org.springframework.data.repository.Repository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface UserRepository extends Repository<User, Integer> {
+public interface UserRepository extends CrudRepository<User, Integer> {
 }
