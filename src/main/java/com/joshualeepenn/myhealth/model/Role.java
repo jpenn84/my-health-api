@@ -8,6 +8,8 @@ import lombok.Data;
 @Data
 public class Role {
 
+    // Roles are preloaded at application startup from data.sql in src/main/resources
+    // Changes made to the class structure or Type enum will need a corresponding change in that file.
     @Id
     @Enumerated(EnumType.STRING)
     private Type id;

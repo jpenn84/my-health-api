@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 public class Weight {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @ManyToOne
