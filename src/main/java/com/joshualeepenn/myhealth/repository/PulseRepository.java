@@ -1,7 +1,7 @@
 package com.joshualeepenn.myhealth.repository;
 
 import com.joshualeepenn.myhealth.model.Pulse;
-import org.springframework.data.repository.Repository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface PulseRepository extends Repository<Pulse, Integer> {
+public interface PulseRepository extends CrudRepository<Pulse, Integer> {
 }

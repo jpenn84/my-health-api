@@ -1,7 +1,7 @@
 package com.joshualeepenn.myhealth.repository;
 
 import com.joshualeepenn.myhealth.model.Role;
-import org.springframework.data.repository.Repository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface RoleRepository extends Repository<Role, Integer> {
+public interface RoleRepository extends CrudRepository<Role, Integer> {
 }
