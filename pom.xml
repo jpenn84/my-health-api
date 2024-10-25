@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.4</version>
+        <version>3.3.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.joshualeepenn</groupId>
-    <artifactId>myhealth</artifactId>
+    <artifactId>my-health-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>My Health</name>
-    <description>My Health</description>
+    <name>My Health API</name>
+    <description>My Health API</description>
     <url/>
     <licenses>
         <license/>
